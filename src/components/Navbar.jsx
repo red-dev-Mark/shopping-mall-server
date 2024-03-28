@@ -25,10 +25,6 @@ export default function Navbar({ authenticate }) {
         <FontAwesomeIcon icon={faUser} />
         <div>로그인</div>
       </div>
-      <div className="login-button">
-        <FontAwesomeIcon icon={faUser} />
-        <div>Detail</div>
-      </div>
       <div className="logo">
         <img
           onClick={goToMain}
