@@ -9,7 +9,7 @@ export default function ProductAll() {
     let url = new URL("http://localhost:3004/products");
     let response = await fetch(url);
     let data = await response.json();
-    console.log(data);
+    // console.log(data);
     setProductList(data);
   };
 
