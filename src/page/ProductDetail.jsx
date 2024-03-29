@@ -8,7 +8,7 @@ export default function ProductDetail() {
 
   useEffect(() => {
     const getProductDetail = async () => {
-      let url = new URL(`http://localhost:3004/products/${id}`);
+      let url = new URL(`https://my-json-server.typicode.com/redhero8830/shopping-mall-server/products/${id}`);
       const response = await fetch(url);
       const data = await response.json();
       // console.log(data);
